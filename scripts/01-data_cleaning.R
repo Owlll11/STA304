@@ -31,6 +31,8 @@ rm(raw_data)
 
 #### What's next? ####
 
+reduced_data <- reduced_data %>%
+  filter(first_col == "some")
 
 
          
